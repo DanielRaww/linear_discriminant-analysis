@@ -1,0 +1,22 @@
+##Place a command to remove all variables from your environment at the very beginning of your script 
+##Do not include the following commands in your code: install.packages, view or fix commands, and commands resetting your working directory in your final code. 
+##Do include libraries you used in your code.
+##Ensure you are able to run your code from start to finish without changing place in your code. 
+
+##Load the mlbench library along with other libraries you need to solve this problem. 
+##Load the Glass dataset out of the mlbench library and add commands to get to know the dataset. 
+##Model 1: LDA
+##Set the seed to 123 
+##Set Data Partition to subset 75% of the data for the train group and 25% for the test group.  
+##Use the preprocess function to center and scale your data and execute on both train and test datasets. 
+##Make an lda model with the training dataset that you just transformed using Type as the dependent variable (Y). Print that model to see initial results. 
+##Graph at least 3 of the combinations of LD's using ggplot2, setting the color to Type. 
+##Make predictions with the ldamodel using the transformed test data.
+##Calculate the accuracy rate and produce a confusion matrix using the table function. 
+##Answer the following questions: 1) What is the accuracy rate?
+##2) Where did you misclassify observations?
+##Use the plot function to plot the ldamodel combinations.
+###Model 2: QDA
+###Check to see if a qda model can be calculated. If so, calculate it. If not, state why in comments. 
+
+##After you finish writing your code and editing your file, submit your .R file directly to gradescope.  
